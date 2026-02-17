@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+influxdb-client
+fastapi
+uvicorn
+scipy
