@@ -1,0 +1,19 @@
+# config.py
+
+SAMPLING_RATE = 5000  # Hz
+DURATION = 20  # seconds
+FREQUENCY = 50  # Hz
+
+LINE_VOLTAGE = 415  # V line-to-line
+PHASE_VOLTAGE = LINE_VOLTAGE / (3 ** 0.5)
+
+TIME_STEP = 1 / SAMPLING_RATE
+TOTAL_SAMPLES = int(DURATION * SAMPLING_RATE)
+
+HVAC_RATED_POWER = 14000  # Watts (~17 ton approx)
+HVAC_PF = 0.85
+
+PUMP_POWER = 4000  # Watts
+PUMP_PF = 0.9
+
+HEATER_POWER = 6000  # Resistive

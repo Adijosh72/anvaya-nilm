@@ -1,2 +1,3 @@
 .DS_Store
 data/*.csv
+src/high_sampling_nilm/simulator/*.csv
